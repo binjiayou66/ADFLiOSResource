@@ -134,8 +134,10 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
+  s.dependency "Flutter", :path => '/Applications/flutter/bin/cache/artifacts/engine/ios/'
+  s.dependency "flutter_boost", :path => '/Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_boost-0.0.411'
+  s.dependency "xservice_kit", :path => '/Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/xservice_kit-0.0.29/'
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "CTNetworking"
   # s.dependency "CTAPIManagers"
   # s.dependency "CTMediator"
 
