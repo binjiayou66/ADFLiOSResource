@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ADFLiOSResource"
-  s.version      = "0.23"
+  s.version      = "0.24"
   s.summary      = "ADFLiOSResource."
   s.description  = <<-DESC
                     this is ADFLiOSResource
@@ -22,6 +22,7 @@ Pod::Spec.new do |s|
   s.resources = "ADFLiOSResource/ADFLiOSResource/*.{plist,xcconfig}","ADFLiOSResource/ADFLiOSResource/.flutter-plugins"
   s.ios.vendored_frameworks = ["ADFLiOSResource/ADFLiOSResource/App.framework", "ADFLiOSResource/ADFLiOSResource/Flutter.framework"]
   s.ios.vendored_libraries = "ADFLiOSResource/ADFLiOSResource/**/*.a"
+  s.preserve_paths   = 'ADFLiOSResource/ADFLiOSResource/Flutter.framework/**/*', 'ADFLiOSResource/ADFLiOSResource/App.framework/**/*'
 
   s.library  = "c++"
   # s.frameworks = "SomeFramework", "AnotherFramework"
