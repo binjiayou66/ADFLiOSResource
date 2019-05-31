@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ADFLiOSResource"
-  s.version      = "0.19"
+  s.version      = "0.20"
   s.summary      = "ADFLiOSResource."
 
   # This description is used to generate tags and improve search results.
@@ -67,7 +67,8 @@ Pod::Spec.new do |s|
   # s.platform     = :ios
   s.platform     = :ios, "8.0"
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 arm64 armv7' }
-
+  s.user_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 arm64 armv7' }
+  
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
   # s.osx.deployment_target = "10.7"
