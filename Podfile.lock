@@ -1,29 +1,3 @@
-PODS:
-  - Flutter (1.0.0)
-  - flutter_boost (0.0.1):
-    - Flutter
-    - xservice_kit
-  - xservice_kit (0.0.1):
-    - Flutter
-
-DEPENDENCIES:
-  - Flutter (from `/Applications/flutter/bin/cache/artifacts/engine/ios`)
-  - flutter_boost (from `/Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_boost-0.0.411/ios`)
-  - xservice_kit (from `/Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/xservice_kit-0.0.29/ios`)
-
-EXTERNAL SOURCES:
-  Flutter:
-    :path: "/Applications/flutter/bin/cache/artifacts/engine/ios"
-  flutter_boost:
-    :path: "/Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_boost-0.0.411/ios"
-  xservice_kit:
-    :path: "/Applications/flutter/.pub-cache/hosted/pub.flutter-io.cn/xservice_kit-0.0.29/ios"
-
-SPEC CHECKSUMS:
-  Flutter: 9d0fac939486c9aba2809b7982dfdbb47a7b0296
-  flutter_boost: 6a083f2f1b67f9b08724d6c4b280a099d1b40797
-  xservice_kit: a86c64372b3e41e7d8e9b1a0b9139866680f525c
-
-PODFILE CHECKSUM: 9392026106014767c2db657502b234abfef5dcc3
+PODFILE CHECKSUM: 8ebe6ec06c9cf8e18b26476d09b818506b61247a
 
 COCOAPODS: 1.5.3

@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ADFLiOSResource"
-  s.version      = "0.11"
+  s.version      = "0.12"
   s.summary      = "ADFLiOSResource."
 
   # This description is used to generate tags and improve search results.
@@ -94,16 +94,9 @@ Pod::Spec.new do |s|
   s.source_files  = "ADFLiOSResource/ADFLiOSResource/*.{h,m}"
   s.resources = "ADFLiOSResource/ADFLiOSResource/*.{plist,xcconfig}","ADFLiOSResource/ADFLiOSResource/.flutter-plugins"
   s.vendored_frameworks = ["ADFLiOSResource/ADFLiOSResource/App.framework", "ADFLiOSResource/ADFLiOSResource/Flutter.framework"]
-
+  s.vendored_libraries = "ADFLiOSResource/ADFLiOSResource/**/*.a"
   # s.exclude_files = "Classes/Exclude"
   # s.public_header_files = "Classes/**/*.h"
-
-  s.subspec 'FlutterBoost' do |ss|
-    ss.source_files = 'ADFLiOSResource/ADFLiOSResource/FlutterBoost/**/*.{h,m}'
-  end
-  s.subspec 'XServiceKit' do |ss|
-    ss.source_files = 'ADFLiOSResource/ADFLiOSResource/XServiceKit/**/*.{h,m}'
-  end
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -125,7 +118,7 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  # s.framework  = "SomeFramework"
+  s.framework  = "libc++"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"

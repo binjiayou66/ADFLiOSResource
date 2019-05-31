@@ -19,6 +19,10 @@
 		A1240846229FAFEE003688B6 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1240840229FAFEE003688B6 /* AppFrameworkInfo.plist */; };
 		A1240847229FAFEE003688B6 /* Generated.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A1240841229FAFEE003688B6 /* Generated.xcconfig */; };
 		A1240860229FE322003688B6 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = A124085F229FE322003688B6 /* GeneratedPluginRegistrant.m */; };
+		A12408B822A0BDA0003688B6 /* Flutter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A124086122A0BDA0003688B6 /* Flutter.framework */; };
+		A124092A22A0D04B003688B6 /* libflutter_boost.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A124091722A0D04A003688B6 /* libflutter_boost.a */; };
+		A124092B22A0D04B003688B6 /* libxservice_kit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A124092922A0D04A003688B6 /* libxservice_kit.a */; };
+		A124092D22A0D245003688B6 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A124092C22A0D244003688B6 /* libc++.tbd */; };
 		E6C43AC99DBDD61EF45D613F /* libPods-ADFLiOSResource.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 369F98C33C42B8F47E4090B1 /* libPods-ADFLiOSResource.a */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +47,39 @@
 		A1240841229FAFEE003688B6 /* Generated.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Generated.xcconfig; sourceTree = "<group>"; };
 		A124085E229FE322003688B6 /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
 		A124085F229FE322003688B6 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
+		A124086122A0BDA0003688B6 /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Flutter.framework; sourceTree = "<group>"; };
+		A124090822A0D04A003688B6 /* FLBFlutterApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLBFlutterApplication.h; sourceTree = "<group>"; };
+		A124090922A0D04A003688B6 /* FLBResultMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLBResultMediator.h; sourceTree = "<group>"; };
+		A124090A22A0D04A003688B6 /* FLBPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLBPlatform.h; sourceTree = "<group>"; };
+		A124090B22A0D04A003688B6 /* FLBFlutterViewProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLBFlutterViewProvider.h; sourceTree = "<group>"; };
+		A124090C22A0D04A003688B6 /* FLBFlutterViewContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLBFlutterViewContainer.h; sourceTree = "<group>"; };
+		A124090D22A0D04A003688B6 /* FLBFlutterAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLBFlutterAppDelegate.h; sourceTree = "<group>"; };
+		A124090E22A0D04A003688B6 /* FLBFlutterViewControllerAdaptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLBFlutterViewControllerAdaptor.h; sourceTree = "<group>"; };
+		A124090F22A0D04A003688B6 /* FlutterBoostPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlutterBoostPlugin.h; sourceTree = "<group>"; };
+		A124091022A0D04A003688B6 /* FLBViewProviderFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLBViewProviderFactory.h; sourceTree = "<group>"; };
+		A124091122A0D04A003688B6 /* FlutterBoostConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlutterBoostConfig.h; sourceTree = "<group>"; };
+		A124091222A0D04A003688B6 /* FLBViewControllerResultHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLBViewControllerResultHandler.h; sourceTree = "<group>"; };
+		A124091322A0D04A003688B6 /* FLBFlutterEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLBFlutterEngine.h; sourceTree = "<group>"; };
+		A124091422A0D04A003688B6 /* FLBFlutterEngineOld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLBFlutterEngineOld.h; sourceTree = "<group>"; };
+		A124091522A0D04A003688B6 /* FLBFlutterViewContainerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLBFlutterViewContainerManager.h; sourceTree = "<group>"; };
+		A124091622A0D04A003688B6 /* FlutterBoost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlutterBoost.h; sourceTree = "<group>"; };
+		A124091722A0D04A003688B6 /* libflutter_boost.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libflutter_boost.a; sourceTree = "<group>"; };
+		A124091B22A0D04A003688B6 /* FlutterServiceCallDispather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlutterServiceCallDispather.h; sourceTree = "<group>"; };
+		A124091C22A0D04A003688B6 /* FlutterMessageClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlutterMessageClient.h; sourceTree = "<group>"; };
+		A124091D22A0D04A003688B6 /* MessengerFacede.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessengerFacede.h; sourceTree = "<group>"; };
+		A124091E22A0D04A003688B6 /* XKCollectionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKCollectionHelper.h; sourceTree = "<group>"; };
+		A124091F22A0D04A003688B6 /* FlutterMessageFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlutterMessageFactory.h; sourceTree = "<group>"; };
+		A124092022A0D04A003688B6 /* FlutterChannelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlutterChannelManager.h; sourceTree = "<group>"; };
+		A124092122A0D04A003688B6 /* XserviceKitPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XserviceKitPlugin.h; sourceTree = "<group>"; };
+		A124092222A0D04A003688B6 /* FlutterNativeService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlutterNativeService.h; sourceTree = "<group>"; };
+		A124092322A0D04A003688B6 /* FlutterServiceCallHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlutterServiceCallHandler.h; sourceTree = "<group>"; };
+		A124092422A0D04A003688B6 /* FlutterServiceTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlutterServiceTemplate.h; sourceTree = "<group>"; };
+		A124092522A0D04A003688B6 /* ServiceGateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceGateway.h; sourceTree = "<group>"; };
+		A124092622A0D04A003688B6 /* MessageClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageClient.h; sourceTree = "<group>"; };
+		A124092722A0D04A003688B6 /* MessageDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageDispatcher.h; sourceTree = "<group>"; };
+		A124092822A0D04A003688B6 /* MCUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCUtils.h; sourceTree = "<group>"; };
+		A124092922A0D04A003688B6 /* libxservice_kit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libxservice_kit.a; sourceTree = "<group>"; };
+		A124092C22A0D244003688B6 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		F1D2C205C6B419B2E4868687 /* Pods-ADFLiOSResource.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADFLiOSResource.release.xcconfig"; path = "Pods/Target Support Files/Pods-ADFLiOSResource/Pods-ADFLiOSResource.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -51,7 +88,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A124092D22A0D245003688B6 /* libc++.tbd in Frameworks */,
+				A124092A22A0D04B003688B6 /* libflutter_boost.a in Frameworks */,
 				A1240845229FAFEE003688B6 /* App.framework in Frameworks */,
+				A12408B822A0BDA0003688B6 /* Flutter.framework in Frameworks */,
+				A124092B22A0D04B003688B6 /* libxservice_kit.a in Frameworks */,
 				E6C43AC99DBDD61EF45D613F /* libPods-ADFLiOSResource.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -62,6 +103,7 @@
 		44432AFDF1A76632ECC7118B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A124092C22A0D244003688B6 /* libc++.tbd */,
 				369F98C33C42B8F47E4090B1 /* libPods-ADFLiOSResource.a */,
 			);
 			name = Frameworks;
@@ -105,6 +147,9 @@
 		A124083A229FAFEE003688B6 /* ADFLiOSResource */ = {
 			isa = PBXGroup;
 			children = (
+				A124090522A0D04A003688B6 /* flutter_boost */,
+				A124091822A0D04A003688B6 /* libxservice_kit */,
+				A124086122A0BDA0003688B6 /* Flutter.framework */,
 				A124085E229FE322003688B6 /* GeneratedPluginRegistrant.h */,
 				A124085F229FE322003688B6 /* GeneratedPluginRegistrant.m */,
 				A124083B229FAFEE003688B6 /* Debug.xcconfig */,
@@ -115,6 +160,83 @@
 				A1240841229FAFEE003688B6 /* Generated.xcconfig */,
 			);
 			path = ADFLiOSResource;
+			sourceTree = "<group>";
+		};
+		A124090522A0D04A003688B6 /* flutter_boost */ = {
+			isa = PBXGroup;
+			children = (
+				A124090622A0D04A003688B6 /* Include */,
+				A124091722A0D04A003688B6 /* libflutter_boost.a */,
+			);
+			path = flutter_boost;
+			sourceTree = "<group>";
+		};
+		A124090622A0D04A003688B6 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				A124090722A0D04A003688B6 /* flutter_boost */,
+			);
+			path = Include;
+			sourceTree = "<group>";
+		};
+		A124090722A0D04A003688B6 /* flutter_boost */ = {
+			isa = PBXGroup;
+			children = (
+				A124090822A0D04A003688B6 /* FLBFlutterApplication.h */,
+				A124090922A0D04A003688B6 /* FLBResultMediator.h */,
+				A124090A22A0D04A003688B6 /* FLBPlatform.h */,
+				A124090B22A0D04A003688B6 /* FLBFlutterViewProvider.h */,
+				A124090C22A0D04A003688B6 /* FLBFlutterViewContainer.h */,
+				A124090D22A0D04A003688B6 /* FLBFlutterAppDelegate.h */,
+				A124090E22A0D04A003688B6 /* FLBFlutterViewControllerAdaptor.h */,
+				A124090F22A0D04A003688B6 /* FlutterBoostPlugin.h */,
+				A124091022A0D04A003688B6 /* FLBViewProviderFactory.h */,
+				A124091122A0D04A003688B6 /* FlutterBoostConfig.h */,
+				A124091222A0D04A003688B6 /* FLBViewControllerResultHandler.h */,
+				A124091322A0D04A003688B6 /* FLBFlutterEngine.h */,
+				A124091422A0D04A003688B6 /* FLBFlutterEngineOld.h */,
+				A124091522A0D04A003688B6 /* FLBFlutterViewContainerManager.h */,
+				A124091622A0D04A003688B6 /* FlutterBoost.h */,
+			);
+			path = flutter_boost;
+			sourceTree = "<group>";
+		};
+		A124091822A0D04A003688B6 /* libxservice_kit */ = {
+			isa = PBXGroup;
+			children = (
+				A124091922A0D04A003688B6 /* Include */,
+				A124092922A0D04A003688B6 /* libxservice_kit.a */,
+			);
+			path = libxservice_kit;
+			sourceTree = "<group>";
+		};
+		A124091922A0D04A003688B6 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				A124091A22A0D04A003688B6 /* service_kit */,
+			);
+			path = Include;
+			sourceTree = "<group>";
+		};
+		A124091A22A0D04A003688B6 /* service_kit */ = {
+			isa = PBXGroup;
+			children = (
+				A124091B22A0D04A003688B6 /* FlutterServiceCallDispather.h */,
+				A124091C22A0D04A003688B6 /* FlutterMessageClient.h */,
+				A124091D22A0D04A003688B6 /* MessengerFacede.h */,
+				A124091E22A0D04A003688B6 /* XKCollectionHelper.h */,
+				A124091F22A0D04A003688B6 /* FlutterMessageFactory.h */,
+				A124092022A0D04A003688B6 /* FlutterChannelManager.h */,
+				A124092122A0D04A003688B6 /* XserviceKitPlugin.h */,
+				A124092222A0D04A003688B6 /* FlutterNativeService.h */,
+				A124092322A0D04A003688B6 /* FlutterServiceCallHandler.h */,
+				A124092422A0D04A003688B6 /* FlutterServiceTemplate.h */,
+				A124092522A0D04A003688B6 /* ServiceGateway.h */,
+				A124092622A0D04A003688B6 /* MessageClient.h */,
+				A124092722A0D04A003688B6 /* MessageDispatcher.h */,
+				A124092822A0D04A003688B6 /* MCUtils.h */,
+			);
+			path = service_kit;
 			sourceTree = "<group>";
 		};
 		DC9F979A1AF3C462A774C20F /* Pods */ = {
@@ -137,7 +259,6 @@
 				A1240813229F7184003688B6 /* Sources */,
 				A1240814229F7184003688B6 /* Frameworks */,
 				A1240815229F7184003688B6 /* Resources */,
-				7D1E67CAB19FCA6FE896D14B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -198,24 +319,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7D1E67CAB19FCA6FE896D14B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ADFLiOSResource/Pods-ADFLiOSResource-frameworks.sh",
-				"${PODS_ROOT}/../../../../../Applications/flutter/bin/cache/artifacts/engine/ios/Flutter.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flutter.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ADFLiOSResource/Pods-ADFLiOSResource-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		EB39C625B19F155D4CFFDCA4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -389,6 +492,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T58F77STV4;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ADFLiOSResource/ADFLiOSResource",
@@ -397,6 +501,12 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ADFLiOSResource/ADFLiOSResource",
+					"$(PROJECT_DIR)/ADFLiOSResource/ADFLiOSResource/flutter_boost",
+					"$(PROJECT_DIR)/ADFLiOSResource/ADFLiOSResource/libxservice_kit",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Andy.ADFLiOSResource;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,6 +521,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T58F77STV4;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ADFLiOSResource/ADFLiOSResource",
@@ -419,6 +530,12 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ADFLiOSResource/ADFLiOSResource",
+					"$(PROJECT_DIR)/ADFLiOSResource/ADFLiOSResource/flutter_boost",
+					"$(PROJECT_DIR)/ADFLiOSResource/ADFLiOSResource/libxservice_kit",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Andy.ADFLiOSResource;
 				PRODUCT_NAME = "$(TARGET_NAME)";

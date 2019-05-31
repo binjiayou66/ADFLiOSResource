@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "09266350AEFF600F83E933257FE09378"
+               BlueprintIdentifier = "4741AF00346B20B2D8340682AD028E76"
                BlueprintName = "Pods-ADFLiOSResource"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "libPods-ADFLiOSResource.a">
