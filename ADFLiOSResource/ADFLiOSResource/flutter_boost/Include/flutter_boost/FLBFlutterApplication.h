@@ -23,7 +23,7 @@
  */
 
 #import <Foundation/Foundation.h>
-#import <Flutter/Flutter.h>
+#import "Flutter.h"
 #import "FLBPlatform.h"
 #import "FlutterBoost.h"
 

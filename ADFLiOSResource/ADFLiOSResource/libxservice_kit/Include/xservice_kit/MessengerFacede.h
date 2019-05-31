@@ -6,7 +6,7 @@
 
 #import <Foundation/Foundation.h>
 #import "MessageClient.h"
-#import <Flutter/Flutter.h>
+#import "Flutter.h"
 
 @interface MessengerFacede : NSObject
 

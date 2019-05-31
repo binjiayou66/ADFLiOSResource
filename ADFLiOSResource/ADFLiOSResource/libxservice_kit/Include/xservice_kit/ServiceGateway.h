@@ -5,7 +5,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <xservice_kit/FlutterNativeService.h>
+#import "FlutterNativeService.h"
 
 @interface ServiceGateway : NSObject
 

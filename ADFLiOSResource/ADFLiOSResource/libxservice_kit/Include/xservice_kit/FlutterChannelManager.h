@@ -5,7 +5,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <Flutter/Flutter.h>
+#import "Flutter.h"
 
 
 typedef void (^FlutterStreamOnListenHandler)(id arguments,FlutterEventSink);

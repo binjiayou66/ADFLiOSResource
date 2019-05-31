@@ -6,7 +6,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <xservice_kit/MessageClient.h>
+#import "MessageClient.h"
 
 @protocol MessageHandler <NSObject>
 @required

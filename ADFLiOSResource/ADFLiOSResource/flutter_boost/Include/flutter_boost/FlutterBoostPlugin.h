@@ -21,7 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-#import <Flutter/Flutter.h>
+#import "Flutter.h"
 
 #import "FLBFlutterViewContainer.h"
 #import "FLBPlatform.h"
