@@ -3,8 +3,8 @@
 //
 
 #import "GeneratedPluginRegistrant.h"
-#import "flutter_boost/Include/flutter_boost/FlutterBoostPlugin.h"
-#import "libxservice_kit/Include/xservice_kit/XserviceKitPlugin.h"
+#import "FlutterBoostPlugin.h"
+#import "XserviceKitPlugin.h"
 
 @implementation GeneratedPluginRegistrant
 
