@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ADFLiOSResource"
-  s.version      = "0.20"
+  s.version      = "0.21"
   s.summary      = "ADFLiOSResource."
 
   # This description is used to generate tags and improve search results.
@@ -93,7 +93,6 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.public_header_files = "ADFLiOSResource/ADFLiOSResource/**/*.h"
   s.source_files  = "ADFLiOSResource/ADFLiOSResource/**/*.{h,m}"
   s.resources = "ADFLiOSResource/ADFLiOSResource/*.{plist,xcconfig}","ADFLiOSResource/ADFLiOSResource/.flutter-plugins"
   s.vendored_frameworks = ["ADFLiOSResource/ADFLiOSResource/App.framework", "ADFLiOSResource/ADFLiOSResource/Flutter.framework"]
