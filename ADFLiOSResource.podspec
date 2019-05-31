@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ADFLiOSResource"
-  s.version      = "0.21"
+  s.version      = "0.22"
   s.summary      = "ADFLiOSResource."
 
   # This description is used to generate tags and improve search results.

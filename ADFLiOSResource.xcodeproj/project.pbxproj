@@ -15,16 +15,33 @@
 		A124082A229F7185003688B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1240829229F7185003688B6 /* main.m */; };
 		A1240842229FAFEE003688B6 /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A124083B229FAFEE003688B6 /* Debug.xcconfig */; };
 		A1240844229FAFEE003688B6 /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A124083D229FAFEE003688B6 /* Release.xcconfig */; };
-		A1240845229FAFEE003688B6 /* App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A124083E229FAFEE003688B6 /* App.framework */; };
 		A1240846229FAFEE003688B6 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1240840229FAFEE003688B6 /* AppFrameworkInfo.plist */; };
 		A1240847229FAFEE003688B6 /* Generated.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A1240841229FAFEE003688B6 /* Generated.xcconfig */; };
 		A1240860229FE322003688B6 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = A124085F229FE322003688B6 /* GeneratedPluginRegistrant.m */; };
-		A12408B822A0BDA0003688B6 /* Flutter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A124086122A0BDA0003688B6 /* Flutter.framework */; };
 		A124092A22A0D04B003688B6 /* libflutter_boost.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A124091722A0D04A003688B6 /* libflutter_boost.a */; };
 		A124092B22A0D04B003688B6 /* libxservice_kit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A124092922A0D04A003688B6 /* libxservice_kit.a */; };
 		A124092D22A0D245003688B6 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A124092C22A0D244003688B6 /* libc++.tbd */; };
+		A124093D22A113E5003688B6 /* Flutter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A124086122A0BDA0003688B6 /* Flutter.framework */; };
+		A124093E22A113E5003688B6 /* Flutter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A124086122A0BDA0003688B6 /* Flutter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A124094022A113E9003688B6 /* App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A124083E229FAFEE003688B6 /* App.framework */; };
+		A124094122A113E9003688B6 /* App.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A124083E229FAFEE003688B6 /* App.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E6C43AC99DBDD61EF45D613F /* libPods-ADFLiOSResource.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 369F98C33C42B8F47E4090B1 /* libPods-ADFLiOSResource.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A124093F22A113E5003688B6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A124094122A113E9003688B6 /* App.framework in Embed Frameworks */,
+				A124093E22A113E5003688B6 /* Flutter.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2010DFA82F2786F5B5D74FD0 /* Pods-ADFLiOSResource.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADFLiOSResource.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ADFLiOSResource/Pods-ADFLiOSResource.debug.xcconfig"; sourceTree = "<group>"; };
@@ -90,8 +107,8 @@
 			files = (
 				A124092D22A0D245003688B6 /* libc++.tbd in Frameworks */,
 				A124092A22A0D04B003688B6 /* libflutter_boost.a in Frameworks */,
-				A1240845229FAFEE003688B6 /* App.framework in Frameworks */,
-				A12408B822A0BDA0003688B6 /* Flutter.framework in Frameworks */,
+				A124094022A113E9003688B6 /* App.framework in Frameworks */,
+				A124093D22A113E5003688B6 /* Flutter.framework in Frameworks */,
 				A124092B22A0D04B003688B6 /* libxservice_kit.a in Frameworks */,
 				E6C43AC99DBDD61EF45D613F /* libPods-ADFLiOSResource.a in Frameworks */,
 			);
@@ -259,6 +276,7 @@
 				A1240813229F7184003688B6 /* Sources */,
 				A1240814229F7184003688B6 /* Frameworks */,
 				A1240815229F7184003688B6 /* Resources */,
+				A124093F22A113E5003688B6 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
