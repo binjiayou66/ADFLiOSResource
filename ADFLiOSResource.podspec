@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ADFLiOSResource"
-  s.version      = "0.16"
+  s.version      = "0.17"
   s.summary      = "ADFLiOSResource."
 
   # This description is used to generate tags and improve search results.
@@ -118,7 +118,7 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  s.framework  = "libc++"
+  s.library  = "libc++"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
