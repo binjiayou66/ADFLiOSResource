@@ -5,7 +5,7 @@
 #ifndef GeneratedPluginRegistrant_h
 #define GeneratedPluginRegistrant_h
 
-#import <Flutter/Flutter.h>
+#import "Flutter.h"
 
 @interface GeneratedPluginRegistrant : NSObject
 + (void)registerWithRegistry:(NSObject<FlutterPluginRegistry>*)registry;

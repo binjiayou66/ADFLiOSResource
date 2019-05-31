@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ADFLiOSResource"
-  s.version      = "0.25"
+  s.version      = "0.26"
   s.summary      = "ADFLiOSResource."
   s.description  = <<-DESC
                     this is ADFLiOSResource
