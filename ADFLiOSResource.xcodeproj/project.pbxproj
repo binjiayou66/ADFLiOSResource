@@ -64,22 +64,22 @@
 		A124091522A0D04A003688B6 /* FLBFlutterViewContainerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLBFlutterViewContainerManager.h; sourceTree = "<group>"; };
 		A124091622A0D04A003688B6 /* FlutterBoost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlutterBoost.h; sourceTree = "<group>"; };
 		A124091722A0D04A003688B6 /* libflutter_boost.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libflutter_boost.a; sourceTree = "<group>"; };
-		A124091B22A0D04A003688B6 /* FlutterServiceCallDispather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlutterServiceCallDispather.h; sourceTree = "<group>"; };
-		A124091C22A0D04A003688B6 /* FlutterMessageClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlutterMessageClient.h; sourceTree = "<group>"; };
-		A124091D22A0D04A003688B6 /* MessengerFacede.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessengerFacede.h; sourceTree = "<group>"; };
-		A124091E22A0D04A003688B6 /* XKCollectionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKCollectionHelper.h; sourceTree = "<group>"; };
-		A124091F22A0D04A003688B6 /* FlutterMessageFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlutterMessageFactory.h; sourceTree = "<group>"; };
-		A124092022A0D04A003688B6 /* FlutterChannelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlutterChannelManager.h; sourceTree = "<group>"; };
-		A124092122A0D04A003688B6 /* XserviceKitPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XserviceKitPlugin.h; sourceTree = "<group>"; };
-		A124092222A0D04A003688B6 /* FlutterNativeService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlutterNativeService.h; sourceTree = "<group>"; };
-		A124092322A0D04A003688B6 /* FlutterServiceCallHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlutterServiceCallHandler.h; sourceTree = "<group>"; };
-		A124092422A0D04A003688B6 /* FlutterServiceTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlutterServiceTemplate.h; sourceTree = "<group>"; };
-		A124092522A0D04A003688B6 /* ServiceGateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceGateway.h; sourceTree = "<group>"; };
-		A124092622A0D04A003688B6 /* MessageClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageClient.h; sourceTree = "<group>"; };
-		A124092722A0D04A003688B6 /* MessageDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageDispatcher.h; sourceTree = "<group>"; };
-		A124092822A0D04A003688B6 /* MCUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCUtils.h; sourceTree = "<group>"; };
 		A124092922A0D04A003688B6 /* libxservice_kit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libxservice_kit.a; sourceTree = "<group>"; };
 		A124092C22A0D244003688B6 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		A124092F22A0D564003688B6 /* FlutterServiceCallDispather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlutterServiceCallDispather.h; sourceTree = "<group>"; };
+		A124093022A0D564003688B6 /* FlutterMessageClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlutterMessageClient.h; sourceTree = "<group>"; };
+		A124093122A0D564003688B6 /* MessengerFacede.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessengerFacede.h; sourceTree = "<group>"; };
+		A124093222A0D564003688B6 /* XKCollectionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKCollectionHelper.h; sourceTree = "<group>"; };
+		A124093322A0D564003688B6 /* FlutterMessageFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlutterMessageFactory.h; sourceTree = "<group>"; };
+		A124093422A0D564003688B6 /* FlutterChannelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlutterChannelManager.h; sourceTree = "<group>"; };
+		A124093522A0D564003688B6 /* XserviceKitPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XserviceKitPlugin.h; sourceTree = "<group>"; };
+		A124093622A0D564003688B6 /* FlutterNativeService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlutterNativeService.h; sourceTree = "<group>"; };
+		A124093722A0D564003688B6 /* FlutterServiceCallHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlutterServiceCallHandler.h; sourceTree = "<group>"; };
+		A124093822A0D564003688B6 /* FlutterServiceTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlutterServiceTemplate.h; sourceTree = "<group>"; };
+		A124093922A0D564003688B6 /* ServiceGateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceGateway.h; sourceTree = "<group>"; };
+		A124093A22A0D564003688B6 /* MessageClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageClient.h; sourceTree = "<group>"; };
+		A124093B22A0D564003688B6 /* MessageDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageDispatcher.h; sourceTree = "<group>"; };
+		A124093C22A0D564003688B6 /* MCUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCUtils.h; sourceTree = "<group>"; };
 		F1D2C205C6B419B2E4868687 /* Pods-ADFLiOSResource.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADFLiOSResource.release.xcconfig"; path = "Pods/Target Support Files/Pods-ADFLiOSResource/Pods-ADFLiOSResource.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -213,30 +213,30 @@
 		A124091922A0D04A003688B6 /* Include */ = {
 			isa = PBXGroup;
 			children = (
-				A124091A22A0D04A003688B6 /* service_kit */,
+				A124092E22A0D564003688B6 /* xservice_kit */,
 			);
 			path = Include;
 			sourceTree = "<group>";
 		};
-		A124091A22A0D04A003688B6 /* service_kit */ = {
+		A124092E22A0D564003688B6 /* xservice_kit */ = {
 			isa = PBXGroup;
 			children = (
-				A124091B22A0D04A003688B6 /* FlutterServiceCallDispather.h */,
-				A124091C22A0D04A003688B6 /* FlutterMessageClient.h */,
-				A124091D22A0D04A003688B6 /* MessengerFacede.h */,
-				A124091E22A0D04A003688B6 /* XKCollectionHelper.h */,
-				A124091F22A0D04A003688B6 /* FlutterMessageFactory.h */,
-				A124092022A0D04A003688B6 /* FlutterChannelManager.h */,
-				A124092122A0D04A003688B6 /* XserviceKitPlugin.h */,
-				A124092222A0D04A003688B6 /* FlutterNativeService.h */,
-				A124092322A0D04A003688B6 /* FlutterServiceCallHandler.h */,
-				A124092422A0D04A003688B6 /* FlutterServiceTemplate.h */,
-				A124092522A0D04A003688B6 /* ServiceGateway.h */,
-				A124092622A0D04A003688B6 /* MessageClient.h */,
-				A124092722A0D04A003688B6 /* MessageDispatcher.h */,
-				A124092822A0D04A003688B6 /* MCUtils.h */,
+				A124092F22A0D564003688B6 /* FlutterServiceCallDispather.h */,
+				A124093022A0D564003688B6 /* FlutterMessageClient.h */,
+				A124093122A0D564003688B6 /* MessengerFacede.h */,
+				A124093222A0D564003688B6 /* XKCollectionHelper.h */,
+				A124093322A0D564003688B6 /* FlutterMessageFactory.h */,
+				A124093422A0D564003688B6 /* FlutterChannelManager.h */,
+				A124093522A0D564003688B6 /* XserviceKitPlugin.h */,
+				A124093622A0D564003688B6 /* FlutterNativeService.h */,
+				A124093722A0D564003688B6 /* FlutterServiceCallHandler.h */,
+				A124093822A0D564003688B6 /* FlutterServiceTemplate.h */,
+				A124093922A0D564003688B6 /* ServiceGateway.h */,
+				A124093A22A0D564003688B6 /* MessageClient.h */,
+				A124093B22A0D564003688B6 /* MessageDispatcher.h */,
+				A124093C22A0D564003688B6 /* MCUtils.h */,
 			);
-			path = service_kit;
+			path = xservice_kit;
 			sourceTree = "<group>";
 		};
 		DC9F979A1AF3C462A774C20F /* Pods */ = {
